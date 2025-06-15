@@ -412,7 +412,9 @@
                 --space-md: 14px;
                 --space-lg: 20px;
             }
-
+                 body{
+                     overflow:hidden;
+                 }
             .header {
                 padding: var(--space-sm) 0;
             }
@@ -438,6 +440,14 @@
             .chat-history-panel {
                 max-height: 60vh;
             }
+    
+    /* Add this new rule */
+    .formality-selector select {
+        padding-right: 30px; /* Increase from default to create more space */
+    }
+    
+    /* ... other existing mobile styles ... */
+}
         }
     </style>
 </head>
